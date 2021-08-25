@@ -13,7 +13,7 @@ const bscscan = `https://bscscan.com/address/${tokenCA}`;
 const reddit = "https://www.reddit.com/user/miniboxingtoken";
 const youtube = "https://www.youtube.com/channel/UChh-SoS6z_gODpiAVR1ZIgA";
 const twitter = "https://twitter.com/MiniboxingToken";
-const email = "http://MiniboxingToken.com";
+const email = "info@miniboxingtoken.com";
 
 //Whitepaper
 const whitepaper =
