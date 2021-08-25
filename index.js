@@ -1,9 +1,5 @@
 const { Composer } = require("micro-bot");
 const axios = require("axios");
-const express = require("express");
-const fs = require("fs");
-
-const app = express();
 
 const bot = new Composer();
 

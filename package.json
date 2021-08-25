@@ -1,5 +1,5 @@
 {
-  "name": "burnbabytoken",
+  "name": "miniboxingtoken",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saysonjerald/burnbabyburnBot.git"
+    "url": "git+https://github.com/saysonjerald/miniboxingtokenbot.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saysonjerald/burnbabyburnBot/issues"
+    "url": "https://github.com/saysonjerald/miniboxingtokenbot/issues"
   },
-  "homepage": "https://github.com/saysonjerald/burnbabyburnBot#readme",
+  "homepage": "https://github.com/saysonjerald/miniboxingtokenbot#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "express": "^4.17.1",
     "micro-bot": "^2.5.3"
   }
 }
