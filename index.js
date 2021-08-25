@@ -207,6 +207,7 @@ bot.start((ctx) => {
 /ca
 /features
 /marketing
+/price
 /socialmedia
 /tax
 /usecase
@@ -216,3 +217,14 @@ bot.start((ctx) => {
 });
 
 module.exports = bot;
+
+// buy - buy MiniBoxingToken
+// ca - view contract address
+// features - see list of features
+// marketing - view marketing
+// price - view current MiniBoxingToken price
+// socialmedia - List of social media
+// tax - view Tax
+// usecase - view Use Case
+// website - visit website
+// whitepaper - view whitepaper
