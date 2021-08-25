@@ -124,6 +124,23 @@ bot.command("ca", (ctx) => {
   );
 });
 
+bot.command("slippage", (ctx) => {
+  ctx.telegram.sendMessage(
+    ctx.chat.id,
+    `
+<i>👉<b>Slippage</b>
+
+🥊First two minutes: 52-55% 
+
+🥊After two minutes: 
+Slippage : 25-28%</i>
+    `,
+    {
+      parse_mode: "HTML",
+    }
+  );
+});
+
 bot.command("marketing", (ctx) => {
   ctx.replyWithPhoto(
     { source: "./img/marketing.jpg" },
@@ -209,6 +226,7 @@ bot.start((ctx) => {
 /marketing
 /price
 /socialmedia
+/slippage
 /tax
 /usecase
 /website
@@ -224,6 +242,7 @@ module.exports = bot;
 // marketing - view marketing
 // price - view current MiniBoxingToken price
 // socialmedia - List of social media
+// slippage - view slippage
 // tax - view Tax
 // usecase - view Use Case
 // website - visit website
